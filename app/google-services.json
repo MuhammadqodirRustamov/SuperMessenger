@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "84635845971",
+    "project_id": "super-messenger-f8b32",
+    "storage_bucket": "super-messenger-f8b32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84635845971:android:790ccc88839ef6498e8da6",
+        "android_client_info": {
+          "package_name": "uni.dev.supermessenger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdr6QCqDz0HDiZsDn74PdUh1OdnpbVb3Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
