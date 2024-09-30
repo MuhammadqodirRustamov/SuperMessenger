@@ -153,7 +153,7 @@ fun ProfileScreen(navController: NavController) {
             Spacer(modifier = Modifier.height(42.dp))
 
             Box {
-                Column (horizontalAlignment = Alignment.CenterHorizontally) {
+                Column(horizontalAlignment = Alignment.CenterHorizontally) {
 
                     TextField(value = firstName.value,
                         enabled = dataFetched.value,
@@ -389,7 +389,8 @@ fun ProfileScreen(navController: NavController) {
                     .build()
                 if (!dataFetched.value) Box(
                     modifier = Modifier
-                        .fillMaxSize().align(Alignment.Center)
+                        .fillMaxSize()
+                        .align(Alignment.Center)
                 ) {
                     Image(
                         painter = rememberAsyncImagePainter(R.drawable.progress, imageLoader),
